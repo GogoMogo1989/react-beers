@@ -1,10 +1,10 @@
 import Beer from './Beer.jsx'
 
-function Beers(props){
-    console.log(props.list)
+function Beers({list}){
+    const a = 10;
     return (
         <div className="beers">
-            {props.list.map(item => <Beer info={item} />)}
+            {list.list.map(item => <Beer info={item} randomNumber={a} />)}
         </div>
     )   
 

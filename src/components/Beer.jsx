@@ -1,7 +1,12 @@
-function Beer(props){
+function Beer({info, randomNumber}){
+
+    const {title, sub, text} = info
+
     return(
         <div className="beer">
-            {props.info.title}
+            {title}
+            {sub}
+            {text}
         </div>
     )
 }
