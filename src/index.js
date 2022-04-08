@@ -5,6 +5,7 @@ import data from './data'
 
 /* console.log(data.logo)
 console.log(data.cards) */
+/* console.log(<Beers list={data.cards} />) */
 
 ReactDOM.render(
   <React.StrictMode>

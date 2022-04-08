@@ -7,6 +7,7 @@ function Beer({info, randomNumber}){
             {title}
             {sub}
             {text}
+           {/*  <button onClick=()=>{(console.log(`clicked`)}>Click me!</button> */}
         </div>
     )
 }
